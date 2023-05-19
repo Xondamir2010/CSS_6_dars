@@ -1,0 +1,157 @@
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: 100px auto;
+}
+p{
+    float: left;
+    margin-left: 50px;
+    color: grey;
+}
+.p{
+    float: left;
+    margin-left: 400px;
+}
+
+.btn1{
+    width: 40px;
+    height: 20px;
+    background-color: lightgreen;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    margin-left: 395px;
+}
+.btn2{
+    width: 40px;
+    height: 20px;
+    border: 1px solid grey;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    margin-left: 475px;
+}
+.btn3{
+    width: 40px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    margin-left: 560px;
+    transform: skew(-15deg);
+    background-color: grey;
+    overflow: visible;
+}
+.btn4{
+    width: 40px;
+    height: 20px;
+    border: 3px solid lightgrey;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    margin-left: 650px;
+}
+.btn5{
+    width: 40px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    margin-left: 730px;
+    background-color: lightgreen;
+    overflow: visible;
+}
+
+.click1{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: white;
+    display: block;
+    margin-left: 23px;
+    margin-top: 2.5px;
+}
+.click2{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    display: block;
+    margin-left: 22px;
+    margin-top: 2px;
+}
+.click3{
+    display: block;
+    margin-left: 13px;
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+}
+.click4{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid lightgrey;
+    display: block;
+    margin-left: 22px;
+    margin-top: 2px;
+    background-color: lightgrey;
+}
+.click5{
+    display: block;
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn1:focus .click1{
+    margin-left: 1px;
+}
+.btn2:focus .click2{
+    margin-left: 1px;
+}
+.btn3:focus .Savanna{
+    left: 13px;
+}
+.btn3:focus .click3{
+    margin-left: 40px;
+}
+.btn3:focus .btn3:nth-child(5){
+    margin-left: -40px;
+}
+.btn4:focus .click4{
+    margin-left: 2px;
+}
+.btn5:focus .savanna{
+    left: 13px;
+}
+.btn5:focus .click5{
+    margin-left: 40px;
+}
+.btn5:focus .btn5:nth-child(2){
+    margin-left: -40px;
+}
+
+
+
+
+
+.Savanna{
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+.savanna{
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

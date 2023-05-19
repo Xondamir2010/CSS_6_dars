@@ -1,0 +1,128 @@
+body{
+    background-color: dimgrey;
+}
+.wrap{
+    margin-top: 200px;
+}
+.card1{
+    width: 300px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 100px;
+    box-shadow: 0 0 30px;
+    background-image: url("../Rasmlar/Toukan.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    transform: rotate(-20deg);
+    z-index: 1;
+}
+.card2{
+    width: 300px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin-left: -70px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px;
+    background-image: url("../Rasmlar/fox.jpg");
+    background-repeat: no-repeat;
+    background-size: 297px 260px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+.card3{
+    width: 300px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin-left: -70px;
+    margin-top: -20px;
+    box-shadow: 0 0 30px;
+    background-image: url("../Rasmlar/dog.jpg");
+    background-repeat: no-repeat;
+    background-position: 30px 10px;
+    background-size: 250px;
+    transform: rotate(0deg);
+    z-index: 3;
+}
+.card4{
+    width: 300px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin-left: -70px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px;
+    background-image: url("../Rasmlar/pinguin.png");
+    background-repeat: no-repeat;
+    background-position: 50px 20px;
+    transform: rotate(10deg);
+    z-index: 2;
+}
+.card5{
+    width: 300px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin-left: -70px;
+    margin-top: 100px;
+    box-shadow: 0 0 30px;
+    background-image: url("../Rasmlar/lion.jpg");
+    background-repeat: no-repeat;
+    background-size: 298px 260px;
+    background-position: 15px 0;
+    transform: rotate(20deg);
+    z-index: 1;
+}
+
+.border{
+    border: 3px solid #d3d3d3;
+    width: 290px;
+    height: 250px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.p{
+    margin-top: 70px;
+    color: dimgrey;
+}
+
+h3{
+    text-align: center;
+}
+
+.card1:hover{
+    transform: scale(1.2) rotate(-20deg);
+    transition: all 0.7s ease-in-out;
+}
+.card2:hover{
+    transform: scale(1.2) rotate(-10deg);
+    transition: all 0.7s ease-in-out;
+}
+.card3:hover{
+    transform: scale(1.2) rotate(0deg);
+    transition: all 0.7s ease-in-out;
+}
+.card4:hover{
+    transform: scale(1.2) rotate(10deg);
+    transition: all 0.7s ease-in-out;
+}
+.card5:hover{
+    transform: scale(1.2) rotate(20deg);
+    transition: all 0.7s ease-in-out;
+}
+
+
+
+
+
+
+
